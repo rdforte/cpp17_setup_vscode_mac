@@ -50,7 +50,7 @@ In VSCode hit __command ship p__ to bring up the vscode search bar.
 You want to search for __C/C++: Edit Configurations(JSON)__
 Select this.
 Once you have selected this you will get a __c_cpp_properties.json__ file appear in your .vscode folder.
-Replace what you have there with the following:
+Replace the __cStandard__ and __cppStandard__ with the below:
 ```
 {
     "configurations": [
@@ -62,8 +62,8 @@ Replace what you have there with the following:
           "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
         ],
         "compilerPath": "/usr/bin/clang",
-        "cStandard": "c11",
-        "cppStandard": "c++17",
+        "cStandard": "gnu17", // Todo: Replace with this
+        "cppStandard": "gnu++17", // Todo: Replace with this
         "intelliSenseMode": "clang-x64"
       }
     ],
