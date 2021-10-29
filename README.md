@@ -78,4 +78,4 @@ Navigate to your __settings.json__ file in vscode and add the following:
     "cpp": "cd $dir && g++ -std=c++17 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
   },
 ```
-Now you should be able to build and run your cpp files by selectin __control option n__
+Now you should be able to build and run your cpp files by selecting __control option n__
