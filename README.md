@@ -1,4 +1,4 @@
-# C++11 Setup Notes for VSCode on a MAC.
+# C++17 Setup Notes for VSCode on a MAC.
 
 ### Step 1
 Download *[VSCode](https://code.visualstudio.com)*
